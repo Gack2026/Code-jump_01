@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile</title>
+        <meta name="description" content="sample text sample text sample text sample text" />
+
+        <link rel="stylesheet" href="./assets/css/sanitize.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <section class="header"></section>
+        <header id="header">
+            <div class="header-title">
+                <a href="#home" class="header-logo">Profile</a>
+            </div>
+            <div class="header-nenu">
+                <ul class="header-menu-right">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#bicycle">Bicycle</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="hero-image">
+            <div class="hero-image-item">
+                <!-- <img src="./assets/images/mainvisual.png" srcset="./assets/images/mainvisual.png 1x, ./assets/images/mainvisual@2x.png 2x" alt="mainvisual" /> -->
+                <img srcset="./assets/images/mainvisual@2x.png 768w, ./assets/images/mainvisual.png 1280w" sizes="(max-width:768px) 100vw, 1280px" />
+            </div>
+        </section>
+
+        <section class="section">
+            <div id="about">
+                <h1 class="section-headline">About</h1>
+                <figure class="about">
+                    <img class="about-image" src="./assets/images/about.png" alt="About" />
+                    <figcaption class="about-caption">
+                        <h2 class="about-headline">KAKERU MIYAICHI</h2>
+                        <p class="about-description">テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="bicycle" class="section">
+            <h1 class="section-headline">Bicycle</h1>
+            <ul class="grid">
+                <li class="grid-item">
+                    <article class="card">
+                        <a href="./bicycle/bicycle_1.html" class="card-link">
+                            <!-- <img class="card-image" src="./assets/images/bicycle1.png" srcset="./assets/images/bicycle1.png 1x, ./assets/images/bicycle1@2x.png 2x" 　alt="bicycle1" /> -->
+                            <img class="card-image" srcset="./assets/images/bicycle1@2x.png 768w, ./assets/images/bicycle1.png 1280w" sizes="(max-width:768px) 100vw, 1280px" />
+                            <h1 class="cord-headline">タイトルタイトル</h1>
+                            <p class="cord-description">テキストテキストテキスト</p>
+                        </a>
+                    </article>
+                </li>
+                <li class="grid-item">
+                    <article class="card">
+                        <a href="#" class="card-link">
+                            <!-- <img class="card-image" src="./assets/images/bicycle2.png" srcset="./assets/images/bicycle2.png 1x, ./assets/images/bicycle2@2x.png 2x" 　alt="bicycle2" /> -->
+                            <img class="card-image" srcset="./assets/images/bicycle2@2x.png 768w, ./assets/images/bicycle2.png 1280w" sizes="(max-width:768px) 100vw, 1280px" />
+
+                            <h1 class="cord-headline">タイトルタイトル</h1>
+                            <p class="cord-description">テキストテキストテキスト</p>
+                        </a>
+                    </article>
+                </li>
+                <li class="grid-item">
+                    <article class="card">
+                        <a href="#" class="card-link">
+                            <!-- <img class="card-image" src="./assets/images/bicycle3.png" srcset="./assets/images/bicycle3.png 1x, ./assets/images/bicycle3@2x.png 2x" 　alt="bicycle3" /> -->
+                            <img class="card-image" srcset="./assets/images/bicycle3@2x.png 768w, ./assets/images/bicycle3.png 1280w" sizes="(max-width:768px) 100vw, 1280px" />
+
+                            <h1 class="cord-headline">タイトルタイトル</h1>
+                            <p class="cord-description">テキストテキストテキスト</p>
+                        </a>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <footer class="footer">
+            <small class="footer-copy">&copy; 2020 Profile</small>
+        </footer>
+    </body>
+</html>
