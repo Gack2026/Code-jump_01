@@ -1,13 +1,15 @@
 @charset "utf-8";
 html {
-    /* Chrome, Safari, Edge */
+    /* Chrome, Safari, Edge, Opera 用 */
     &::-webkit-scrollbar {
         display: none;
+        /* Firefox 用 */
+        scrollbar-width: none;
+        /* IE, Edge (旧) 用 */
+        -ms-overflow-style: none;
     }
-    /* Firefox */
-    scrollbar-width: none;
-    /* IE 10+ */
-    -ms-overflow-style: none;
+    /* 画面スクロールをゆっくりにする */
+  scroll-behavior: smooth;
 }
 /* //Base style */
 body {
